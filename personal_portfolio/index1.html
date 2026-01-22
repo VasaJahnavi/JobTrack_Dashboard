@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JobTrack Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h2>JobTrack Dashboard</h2>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="card blue">Applied<br><span>12</span></div>
+    <div class="card purple">Interviews<br><span>5</span></div>
+    <div class="card pink">Offers<br><span>2</span></div>
+    <div class="card green">Rate<br><span>25%</span></div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="add-btn">+ Add Application</button>
+    <input type="text" placeholder="Search applications">
+    <select>
+      <option>All Status</option>
+      <option>Applied</option>
+      <option>Interview</option>
+      <option>Offer</option>
+    </select>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Applications -->
+    <div class="applications">
+      <div class="app-card">
+        <h3>Google</h3>
+        <p>Frontend Developer</p>
+        <p><b>Applied:</b> Mar 15, 2024</p>
+        <p><b>Status:</b> Interview</p>
+        <button>Edit</button>
+        <button class="delete">Delete</button>
+      </div>
+
+      <div class="app-card">
+        <h3>Amazon</h3>
+        <p>UX Designer</p>
+        <p><b>Applied:</b> Apr 10, 2024</p>
+        <p><b>Status:</b> Applied</p>
+      </div>
+
+      <button class="load">Load More</button>
+    </div>
+
+    <!-- Analytics -->
+    <div class="analytics">
+      <h3>Application Status</h3>
+      <div class="chart">Pie Chart Here</div>
+
+      <h3>Monthly Applications</h3>
+      <div class="chart">Bar Chart Here</div>
+
+      <button class="export">Export Data</button>
+    </div>
+
+  </div>
+
+  <!-- Empty State (hide later with JS) -->
+  <div class="empty">
+    <h2>No applications yet</h2>
+    <p>Start tracking your job search journey!</p>
+    <button>Add Your First Application</button>
+  </div>
+
+</body>
+</html>

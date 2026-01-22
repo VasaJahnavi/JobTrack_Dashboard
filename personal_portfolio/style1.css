@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f5fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.card {
+  flex: 1;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.blue { background: #4a90e2; }
+.purple { background: #7b6ed6; }
+.pink { background: #e5739a; }
+.green { background: #6cc070; }
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls input,
+.controls select,
+.add-btn {
+  padding: 8px;
+}
+
+.add-btn {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.applications {
+  width: 60%;
+}
+
+.app-card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.app-card button {
+  margin-right: 5px;
+}
+
+.delete {
+  background: #ff5c5c;
+  color: white;
+  border: none;
+}
+
+.load {
+  width: 100%;
+  padding: 10px;
+}
+
+.analytics {
+  width: 40%;
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.chart {
+  height: 120px;
+  background: #eaeaea;
+  margin: 10px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.export {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+}
+
+.empty {
+  background: white;
+  margin-top: 30px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.empty button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+}
